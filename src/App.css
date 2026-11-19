@@ -1,0 +1,31 @@
+/* App-level layout is provided by Tailwind utility classes. */
+
+.app-main {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    padding-inline: 0.75rem;
+  }
+}
+
+.placeholder-screen {
+  width: min(100% - 2rem, 56rem);
+  margin: auto;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.placeholder-screen h1 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.placeholder-screen p {
+  margin: 0.75rem 0 0;
+  color: #94a3b8;
+}
